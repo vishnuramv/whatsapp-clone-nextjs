@@ -4,6 +4,25 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --whatsapp-graygreen: #2A2F32;
+  --whatsapp-darkgreen: #0d1418;
+  --whatsapp-activechatgray: #323739;
+  --whatsapp-hovergray: #2D3134;
+  --whatsapp-chatrecieved: #262D31;
+  --whatsapp-chatsent: #054740;
+  --whatsapp-textgray: #a1a3a5;
+  --whatsapp-headtextgray: #e2e2e2;
+  --whatsapp-linegray: #3f3f3f;
+  --whatsapp-icongray: #b1b3b5;
+  --shadow-rgb: 0,0,0;
+  --background-default: #131c21;
+  background-color: var(--background-default);
+  scrollbar-width: 0px;
+  --ms-overflow-style : none;
+    
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {

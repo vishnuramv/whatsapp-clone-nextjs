@@ -8,7 +8,6 @@ export default function Home() {
         <title>Whatsapp clone</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
       <Sidebar />
     </div>
   )
